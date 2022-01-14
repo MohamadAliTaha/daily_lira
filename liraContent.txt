@@ -1,0 +1,29 @@
+<div id="all">
+    <h3 style="text-align: center; font-weight: normal">
+        <div style="padding-bottom: 30px">
+            <strong>Buy </strong>
+            <text style="font-size: 90%"
+                >1 USD for <text class="buyADollar"></text> LBP
+            </text>
+            <br />
+        </div>
+        <div style="padding-bottom: 30px">
+            <strong>Sell </strong>
+            <text style="font-size: 90%"
+                >1 USD for <text class="sellADollar"></text> LBP
+            </text>
+        </div>
+    </h3>
+    <h5 style="text-align: center; font-weight: lighter; font-size: 95%">
+        Updated <text id="timeDiff"></text> <br />at <time id="refreshTime"></time>
+    </h5>
+</div>
+<script id="info">
+    const dollarBuyRate = #;
+    const dollarSellRate = ^;
+    const refreshTime = ~;
+    const refreshDay = &;
+    const refreshHour = $;
+    const refreshMinutes = *;
+    const refreshSeconds = @;
+</script>
